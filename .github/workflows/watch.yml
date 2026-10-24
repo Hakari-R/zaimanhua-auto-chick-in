@@ -3,7 +3,7 @@ name: Daily Watch
 on:
   schedule:
     # 北京时间 10:00 (UTC+8)，即 UTC 2:00
-    - cron: '0 2 * * *'
+    - cron: '18 23 * * *'
   workflow_dispatch:
 
 jobs:
